@@ -27,6 +27,15 @@ This matters because agentic work is multi-week: sessions are continuations, not
 
 Scope: session rotation and resume for any agent that reads `SKILL.md` files. Non-scope: memory inside a session, subagent orchestration, anything the runtime already does.
 
+## Quick start
+
+```sh
+git clone https://github.com/protokol11/handoffs.git
+cp -r handoffs/hands-off handoffs/hands-on ~/.agents/skills/
+```
+
+In pi: `/skill:hands-off` packages the session state into a handoff; `/skill:hands-on` resumes from one. Details below.
+
 ## Install
 
 Prerequisites: None — only an agent runtime that loads `SKILL.md` skills.
