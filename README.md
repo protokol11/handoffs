@@ -1,6 +1,6 @@
 # handoffs
 
-Typed session handoffs as a replacement for context compaction: `hands-off` writes a verifiable state-transfer document before the session degrades; `hands-on` resumes the work from it.
+Typed session handoffs replace context compaction: a verifiable state document out, a resumed session in.
 
 Proof it is installed:
 
